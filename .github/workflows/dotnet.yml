@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '8.0'  # Specify your .NET version here
+          dotnet-version: '8.0'
 
       - name: Restore dependencies
         run: dotnet restore
@@ -28,4 +28,4 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test --no-restore --verbosity normal
+        run: dotnet test DevopsAssignment.Test/DevopsAssignment.Test.csproj --no-restore --verbosity normal
