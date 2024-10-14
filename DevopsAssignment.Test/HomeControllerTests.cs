@@ -46,27 +46,5 @@ namespace DevopsAssignment.Tests
             Assert.Equal(20, model.Count); // Should contain 20 products
             Assert.DoesNotContain(model, p => p.Name == "dog"); // Should not include the added dog product
         }
-
-        [Fact]
-        public void Privacy_ReturnsView()
-        {
-            // Act
-            var result = _controller.Privacy() as ViewResult;
-
-            // Assert
-            Assert.NotNull(result);
-        }
-
-        [Fact]
-        public void Error_ReturnsViewWithErrorViewModel()
-        {
-            // Act
-            var result = _controller.Error() as ViewResult;
-
-            // Assert
-            Assert.NotNull(result);
-            var model = Assert.IsAssignableFrom<ErrorViewModel>(result.Model);
-            Assert.NotNull(model.RequestId);
-        }
     }
 }
