@@ -1,0 +1,30 @@
+services:
+  sqlserver:
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      MSSQL_SA_PASSWORD: "Ewn!309200"
+      ACCEPT_EULA: "Y"
+      MSSQL_DATABASE: "master"
+    ports:
+      - "1434:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    restart: always
+
+  devopsassignment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - ./wwwroot/images:/app/wwwroot/images
+      - ./keys:/app/keys
+    working_dir: /app
+
+volumes:
+  sql_data:

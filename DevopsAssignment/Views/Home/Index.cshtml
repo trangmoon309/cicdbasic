@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product List</h1>
+
+    <!-- Button to add a new product -->
+    <a href="@Url.Action("Create", "Products")" class="btn btn-primary mb-3">Add New Product</a>
+    <form asp-controller="Products" asp-action="DeleteAll" method="post" onsubmit="return confirm('Are you sure you want to delete all products?');">
+        <button type="submit" class="btn btn-danger">Delete All</button>
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>ImageUrl</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.ImageUrl</td>
+                    <td>
+                        <img src="@product.ImageUrl" alt="@product.Name" style="width:100px;height:auto;" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
