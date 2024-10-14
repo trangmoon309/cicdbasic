@@ -4132,11 +4132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trangnphuynh\\source\\repos\\DevopsAssignment\\DevopsAssignment\\DevopsAssignment.csproj",
+      "projectUniqueName": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\DevopsAssignment.csproj",
       "projectName": "DevopsAssignment",
-      "projectPath": "C:\\Users\\trangnphuynh\\source\\repos\\DevopsAssignment\\DevopsAssignment\\DevopsAssignment.csproj",
+      "projectPath": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\DevopsAssignment.csproj",
       "packagesPath": "C:\\Users\\trangnphuynh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trangnphuynh\\source\\repos\\DevopsAssignment\\DevopsAssignment\\obj\\",
+      "outputPath": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trangnphuynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
