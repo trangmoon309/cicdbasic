@@ -56,5 +56,17 @@ namespace DevopsAssignment.Tests
             // Assert
             Assert.NotNull(result);
         }
+
+        [Fact]
+        public void Error_ReturnsViewWithErrorViewModel()
+        {
+            // Act
+            var result = _controller.Error() as ViewResult;
+
+            // Assert
+            Assert.NotNull(result);
+            var model = Assert.IsAssignableFrom<ErrorViewModel>(result.Model);
+            Assert.NotNull(model.RequestId);
+        }
     }
 }
