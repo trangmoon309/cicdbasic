@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{018E4968-7CFD-4862-9323-341B013E7BC1}|DevopsAssignment.Test\\DevopsAssignment.Test.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment.test\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{018E4968-7CFD-4862-9323-341B013E7BC1}|DevopsAssignment.Test\\DevopsAssignment.Test.csproj|solutionrelative:devopsassignment.test\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\migrations\\20241012061835_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\migrations\\20241012061835_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|c:\\users\\trangnphuynh\\source\\repos\\cicdbasic\\devopsassignment\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E29F2FAF-8A24-4DB6-9220-9C76DB19C7BB}|DevopsAssignment\\DevopsAssignment.csproj|solutionrelative:devopsassignment\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,10 +58,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -57,27 +69,83 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Migrations\\MyDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DevopsAssignment\\Migrations\\MyDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Migrations\\MyDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DevopsAssignment\\Migrations\\MyDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:44:36.896Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment.Test\\HomeControllerTests.cs",
-              "RelativeDocumentMoniker": "DevopsAssignment.Test\\HomeControllerTests.cs",
-              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment.Test\\HomeControllerTests.cs",
-              "RelativeToolTip": "DevopsAssignment.Test\\HomeControllerTests.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAewDkAAAAJAAAAAAAAAA==",
+              "Title": "20241012061835_test.cs",
+              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Migrations\\20241012061835_test.cs",
+              "RelativeDocumentMoniker": "DevopsAssignment\\Migrations\\20241012061835_test.cs",
+              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Migrations\\20241012061835_test.cs",
+              "RelativeToolTip": "DevopsAssignment\\Migrations\\20241012061835_test.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:35:37.027Z",
+              "WhenOpened": "2024-10-19T03:44:34.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "DevopsAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Program.cs",
+              "RelativeToolTip": "DevopsAssignment\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAEwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:37:57.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\appsettings.json",
+              "RelativeDocumentMoniker": "DevopsAssignment\\appsettings.json",
+              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\appsettings.json",
+              "RelativeToolTip": "DevopsAssignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T03:32:56.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Dockerfile",
+              "RelativeDocumentMoniker": "DevopsAssignment\\Dockerfile",
+              "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Dockerfile",
+              "RelativeToolTip": "DevopsAssignment\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-19T03:23:48.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DevopsAssignment\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\trangnphuynh\\source\\repos\\cicdbasic\\DevopsAssignment\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DevopsAssignment\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T14:24:48.578Z",
               "EditorCaption": ""

@@ -10,19 +10,20 @@ namespace DevopsAssignment.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Products",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Products", x => x.Id);
-                });
+            migrationBuilder.Sql(@"
+            IF NOT EXISTS (
+                SELECT * 
+                FROM INFORMATION_SCHEMA.TABLES 
+                WHERE TABLE_NAME = 'Products'
+            )
+            BEGIN
+                CREATE TABLE Products (
+                    Id INT IDENTITY(1,1) PRIMARY KEY,
+                    Name NVARCHAR(MAX),
+                    ImageUrl NVARCHAR(MAX)
+                );
+            END;
+            ");
         }
 
         /// <inheritdoc />
