@@ -29,3 +29,17 @@ jobs:
 
       - name: Run tests
         run: dotnet test DevopsAssignment.Test/DevopsAssignment.Test.csproj --no-restore --verbosity normal
+
+      - name: Build Docker image
+        run: |
+          docker build -t trangbachkhoa309/cicdbasic-devopsassignment:latest .
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: huynhphuongtrang309@gmail.com
+          password: TrangBK309!
+
+      - name: Push Docker image to Docker Hub
+        run: |
+          docker push trangbachkhoa309/cicdbasic-devopsassignment:latest
